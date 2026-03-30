@@ -1,0 +1,159 @@
+/* Umumiy */
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #f4f6fb;
+}
+
+/* Sarlavha */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* TABLE */
+.table {
+  width: 90%;
+  margin: auto;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.table thead {
+  background: linear-gradient(135deg, #36d1dc, #5b86e5);
+  color: white;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  text-align: center;
+}
+
+.table tbody tr {
+  transition: 0.3s;
+}
+
+.table tbody tr:hover {
+  background: #f1f7ff;
+}
+
+/* BUTTONLAR */
+.btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #4facfe;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #007bff;
+  transform: scale(1.05);
+}
+
+.btn1 {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  background: #ff6b6b;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn1:hover {
+  background: #e63946;
+  transform: scale(1.05);
+}
+
+/* EDIT FORM (MODAL STYLE) */
+.editForm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 30px;
+  border-radius: 20px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+  z-index: 1000;
+  animation: popUp 0.3s ease;
+}
+
+/* INPUT */
+.editForm input {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+
+.editForm input:focus {
+  border-color: #5b86e5;
+  box-shadow: 0 0 5px rgba(91,134,229,0.5);
+}
+
+/* BUTTON GROUP */
+.d {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* CANCEL */
+.btn3 {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn3:hover {
+  background: #999;
+  color: white;
+}
+
+/* SAVE */
+.btn4 {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  cursor: pointer;
+  transition: 0.3s;
+  color: #333;
+  font-weight: bold;
+}
+
+.btn4:hover {
+  transform: scale(1.05);
+  color: black;
+}
+
+/* ANIMATION */
+@keyframes popUp {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -60%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+  }
+}

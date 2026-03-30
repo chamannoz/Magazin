@@ -1,0 +1,115 @@
+/* Umumiy */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, sans-serif;
+  background: #f4f6fb;
+}
+
+/* Container */
+div {
+  padding: 20px;
+}
+
+/* Sarlavha */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Jadval */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+/* Header */
+.table thead {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  color: white;
+}
+
+.table th,
+.table td {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Row hover */
+.table tbody tr {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.table tbody tr:hover {
+  background: #f1f7ff;
+  transform: scale(1.01);
+}
+
+/* Savat */
+.savat {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* Savat list */
+.savat ul {
+  flex: 2;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  list-style: none;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.savat li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  font-weight: 500;
+}
+
+/* Payment */
+.payment {
+  flex: 1;
+  background: linear-gradient(135deg, #43e97b, #38f9d7);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.payment h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.btn {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #333;
+  color: white;
+  transform: scale(1.05);
+}

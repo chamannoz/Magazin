@@ -1,0 +1,15 @@
+
+a{
+    font-weight: 700;
+    color:white;
+    text-decoration: inherit;
+    font-size: 30px;
+    background-color: rgb(16, 16, 135);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    padding: 4px 10px;
+}
+a :hover{
+    color: rgb(139, 10, 10);
+}
+
